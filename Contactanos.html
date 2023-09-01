@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <title>Contactame</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Slab&display=swap');
+  </style>
+</head>
+<header id="main-header">
+    <a id="logo-header" href="#">
+        <span class="site-name"><img src="src/img/logo.png" height="105" width="110"></span>
+        <span class="desc-name"></span>
+    </a>
+    <nav>
+        <ul>
+         <li><a href="#">¿Quienes somos?</a></li>
+         <li><a href="Contactanos.html">Contactanos</a></li>   
+        </ul>
+    </nav>
+</header>   
+<body class="contactanos">
+
+  <div class="container">
+    <h1 class="titulo">Contactanos con nuestro club!</h1><br>
+    <form class="row g-3">
+      <div class="col-md-6">
+       
+        <label for="mail" class="form-label">Mail</label>
+        <input type="email" class="form-control" id="mail">
+      </div>
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre Apellidos</label>
+        <input type="text" class="form-control" id="clave">
+      </div>
+      <div class="col-md-12">
+        <label for="direccion" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="direccion" placeholder="Tarija">
+      </div>
+      <div class="col-md-6">
+        <label for="ciudad" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="ciudad">
+      </div>
+      <div class="col-md-4">
+        <label for="provincia" class="form-label">Provincia</label>
+        <select id="provincia" class="form-select">
+          <option selected>Elija...</option>
+          <option value="Tarija">Tarija</option>
+          <option value="O'Connor">O'Connor</option>
+          <option value="Gran Chaco">Gran Chaco</option>
+          <option value="Bermejo">Bermejo</option>
+
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="codigopostal" class="form-label">Código postal</label>
+        <input type="text" class="form-control" id="codigopostal">
+      </div>
+      <div class="col-md-12">
+        <label for="comentarios" class="form-label">Deje aquí sus comentarios</label>
+        <textarea class="form-control" rows="5" id="comentarios" name="comentarios"></textarea>
+      </div>
+      <div class="col-md-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="terminos">
+          <label class="form-check-label" for="terminos">
+            Acepta los términos y condiciones
+          </label>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Confirmar</button>
+        <ul id="ftmenu">
+            <li></li>
+            <li><a href="https://www.whatsapp.com/"><img class="redes" src="src/img/whatsapp (1).png"></a></li>
+            <li><a href="https://www.facebook.com/"><img class="redes" src="src/img/facebook (1).png"></a></li>
+            <li><a href="https://www.clubganadero.com/"><img class="redes" src="src/img/lococont.png" alt=""></a></li>
+        </ul>
+      </div>
+    </form>
+  </div> 
+</body>
